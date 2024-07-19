@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="studentmanagement.VerifyCreatedEventTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="TeacherVerifyCreatedEventTest"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+        </methods>
+      </class> <!-- studentmanagement.VerifyCreatedEventTest -->
+      <class name="studentmanagement.CreateTeacherTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="CreateTeacherProTest"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+        </methods>
+      </class> <!-- studentmanagement.CreateTeacherTest -->
+      <class name="studentmanagement.CreateStudentTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="CreateStudTest"/>
+          <include name="configBM"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+        </methods>
+      </class> <!-- studentmanagement.CreateStudentTest -->
+      <class name="studentmanagement.SubjectRoutingTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="CreateSubjectRoutingTest"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+        </methods>
+      </class> <!-- studentmanagement.SubjectRoutingTest -->
+      <class name="studentmanagement.StudentVerifyCreatedEventTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="StudentVerificationEventTest"/>
+          <include name="configBM"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+        </methods>
+      </class> <!-- studentmanagement.StudentVerifyCreatedEventTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
